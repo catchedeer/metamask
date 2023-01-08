@@ -53,7 +53,14 @@ const BLOCKCHAIN_EXPLORERS = {
 const CONTRACT_ABI = [
 			{
 				"inputs": [],
-				"name": "cat_scam",
+				"name": "do_scam",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "do_scam2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
